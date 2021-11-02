@@ -49,6 +49,9 @@ bg:Destroy()
 bv:Destroy() 
 plr.Character.Humanoid.PlatformStand = false 
 end
+mouse.KeyDown:connect(function(key) 
+if key:lower() == "g" then 
+else 
 flying = true 
 Fly() 
 end 
